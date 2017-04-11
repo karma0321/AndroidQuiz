@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.CheckBox;
@@ -168,7 +167,6 @@ public class MainActivity extends AppCompatActivity {
         question2TextField();
 
         //Calculate the score for question 3
-
         question3CheckBoxes();
 
         //Reset the globalScore variable to avoid unreal sums of points
@@ -180,10 +178,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         displayFinalScore(finalScoreDisplay);
-        Log.v("calculateFinalScore", "scoreTable[0] is: "+ scoreTable[0]);
-        Log.v("calculateFinalScore", "scoreTable[1] is: "+ scoreTable[1]);
-        Log.v("calculateFinalScore", "scoreTable[2] is: "+ scoreTable[2]);
-        Log.v("calculateFinalScore", "Globalscore is: "+ globalScore);
 
     }
 
@@ -197,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
             //If the question has been answered correctly set a green background
             if(scoreTable[i] == 1){
                 wrapper.setBackgroundColor(getResources().getColor(R.color.rightAnswerBackground));
-            //Wrong answer, set the bacgkround color to red
+            //Wrong answer, set the background color to red
             }else{
                 wrapper.setBackgroundColor(getResources().getColor(R.color.wrongAnswerBackground));
             }
@@ -215,7 +209,6 @@ public class MainActivity extends AppCompatActivity {
 
         String resultMessage;
         if(globalScore <= 3){
-//            Resources res = getResources();
             resultMessage = String.format(getString(R.string.zero_to_three_correct_answers), String.valueOf(globalScore));
         }else if(globalScore == 4 || globalScore == 5){
             resultMessage = String.format(getString(R.string.four_or_five_correct_answers), String.valueOf(globalScore));

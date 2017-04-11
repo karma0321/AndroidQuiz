@@ -35,9 +35,7 @@
             android:layout_width="0px"
             android:layout_height="0px"
             android:focusable="true"
-            android:focusableInTouchMode="true"
-            />
-
+            android:focusableInTouchMode="true" />
         <LinearLayout
             android:id="@+id/question_1_wrapper"
             style="@style/QuestionWrapper"
@@ -77,7 +75,6 @@
                     android:onClick="question1RadioButtons"
                     android:text="@string/question_1_answer_3"/>
             </RadioGroup>
-
         </LinearLayout>
         <View
         style="@style/Divider"
@@ -108,7 +105,6 @@
                 android:imeOptions="actionDone"
                 android:inputType="text"
                 android:windowSoftInputMode="stateHidden"/>
-
         </LinearLayout>
         <View
         style="@style/Divider"
@@ -131,7 +127,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/question_3_body"/>
-
             <CheckBox
                 android:id="@+id/question_3_answer_1"
                 android:layout_width="match_parent"
@@ -152,8 +147,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/question_3_answer_4" />
-
-
         </LinearLayout>
         <View
         style="@style/Divider"
@@ -198,7 +191,6 @@
                     android:onClick="question4RadioButtons"
                     android:text="@string/question_4_answer_3"/>
             </RadioGroup>
-
         </LinearLayout>
         <View
         style="@style/Divider"
@@ -222,14 +214,12 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="4dp"
                 android:text="@string/question_5_body"/>
-
            <RelativeLayout
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:orientation="vertical"
                android:paddingBottom="8dp"
-               android:paddingTop="8dp"
-               >
+               android:paddingTop="8dp">
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -290,9 +280,6 @@
                 android:src="@drawable/smartphone"/>
             </RadioGroup>
            </RelativeLayout>
-
-
-
         </LinearLayout>
         <View
         style="@style/Divider"
@@ -337,7 +324,6 @@
                     android:onClick="question6RadioButtons"
                     android:text="@string/question_6_answer_3"/>
             </RadioGroup>
-
         </LinearLayout>
         <View
         style="@style/Divider"
@@ -358,6 +344,4 @@
             android:onClick="calculateFinalScore"
             android:text="@string/calculate_my_score"/>
     </LinearLayout>
-
-
 </ScrollView>
