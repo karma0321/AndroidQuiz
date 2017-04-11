@@ -7,14 +7,12 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context="com.makuners.android.androidquiz.IntroActivity">
-
     <TextView
         style="@style/WelcomeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/welcome_text"
         />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +20,6 @@
         android:layout_margin="16dp"
         android:text="@string/intro_text"
         />
-
     <EditText
         android:id="@+id/inputUserName"
         android:layout_width="match_parent"
@@ -37,6 +34,4 @@
         android:layout_height="wrap_content"
         android:onClick="goToMainActivity"
         android:text="@string/let_s_start"/>
-
-
 </LinearLayout>
