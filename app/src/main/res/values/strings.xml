@@ -20,7 +20,7 @@
     <string name="question_1_answer_3">PictureView</string>
     <string name="question_2_body">What programming language is Android based on?\n(Tip: not the markup one)</string>
     <string name="question_2_hint">Your answer here…</string>
-    <string name="question_3_body">Which of these attributes are correct for positioning and align views?\nMark each one of the valid options.</string>
+    <string name="question_3_body">Which of these attributes are correct for positioning and align views?\nMark only and all the valid options.</string>
     <string name="question_3_answer_1">android:space</string>
     <string name="question_3_answer_2">android:padding</string>
     <string name="question_3_answer_3">android:align</string>

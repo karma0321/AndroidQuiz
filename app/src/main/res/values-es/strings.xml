@@ -12,7 +12,7 @@
     <string name="question_2_body">¿En qué lenguaje de programación está basado Android? (Pista: no es el de marcado)</string>
     <string name="question_2_hint">Tu respuesta aquí…</string>
     <string name="question_2_title">2. Lenguajes</string>
-    <string name="question_3_body">¿Cuál de estos atributos son correctos para posicionar y alinear las views? Marca todas las respuestas correctas.</string>
+    <string name="question_3_body">¿Cuál de estos atributos son correctos para posicionar y alinear las views? Marca todas y sólo las respuestas correctas.</string>
     <string name="question_3_title">3. Posicionamiento</string>
     <string name="question_4_answer_1">Imágenes crujientes de un sandwich</string>
     <string name="question_4_answer_2">Errores que queman tu dispositivo</string>
