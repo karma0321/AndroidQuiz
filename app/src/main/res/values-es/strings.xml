@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Quiz</string>
+    <string name="all_correct_answers">¡Enhorabuena! Todas tus respuestas son correctas! (%1$s de 6) ¡Puedes presumir de tu logro!</string>
+    <string name="calculate_my_score">Calcular resultado</string>
+    <string name="default_user_name">Amigo</string>
+    <string name="four_or_five_correct_answers">¡Buen trabajo! Has acertado casi todas las respuestas correctas (%1$s de 6) pero aún tienes algo que mejorar… Comprueba tus errores y vuelve a intentarlo.</string>
+    <string name="intro_text">Esta es una ocasión para ti para practicar y demonstrar lo que has aprendido sobre el desarrollo en Android hasta ahora…\nSólo es la punta del iceberg de todo lo que puedes hacer con Android pero es un buen punto de partida.\nEscribe tu nombre y ¡demuestra lo que sabes!</string>
+    <string name="name">Nombre</string>
+    <string name="question_1_body">¿Qué tienes que usar si quieres insertar una imagen en una aplicación de Android?</string>
+    <string name="question_1_title">1. Imágenes</string>
+    <string name="question_2_body">¿En qué lenguaje de programación está basado Android? (Pista: no es el de marcado)</string>
+    <string name="question_2_hint">Tu respuesta aquí…</string>
+    <string name="question_2_title">2. Lenguajes</string>
+    <string name="question_3_body">¿Cuál de estos atributos son correctos para posicionar y alinear las views? Marca todas las respuestas correctas.</string>
+    <string name="question_3_title">3. Posicionamiento</string>
+    <string name="question_4_answer_1">Imágenes crujientes de un sandwich</string>
+    <string name="question_4_answer_2">Errores que queman tu dispositivo</string>
+    <string name="question_4_answer_3">Pequeños popups usados para devolver mensajes informativos</string>
+    <string name="question_4_body">¿Qué son los Toasts in Android?</string>
+    <string name="question_5_body">¿Cuál de estas imágenes es el logo de Android?</string>
+    <string name="question_6_answer_1">El nombre que se le da a una app hasta que esté completada</string>
+    <string name="question_6_answer_2">Cuando intentas hacer algo con tu aplicación pero no lo consigues</string>
+    <string name="question_6_answer_3">Un objeto de mensajería que puedes usar para pedir una acción a otro componente de la aplicación</string>
+    <string name="question_6_body">In Android, ¿qué es un Intent?</string>
+    <string name="ready_to_show_text">¿Estás listo para demostrar tu conocimiento de Android? Pues, ¡vamos!</string>
+    <string name="user_name">¡Hola %1$s!</string>
+    <string name="welcome_text">Bienvenido a Android Quiz!</string>
+    <string name="zero_to_three_correct_answers">Uhm, tan sólo has conseguido %1$s puntos sobre 6… Aclara tus dudas y ¡vuelve a intentarlo!</string>
+    <string name="let_s_start">¡Empecemos!</string>
+</resources>

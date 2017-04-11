@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.makuners.android.androidquiz.IntroActivity">
+
+    <TextView
+        style="@style/WelcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:text="@string/intro_text"
+        />
+
+    <EditText
+        android:id="@+id/inputUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"
+        />
+    <Button
+        android:id="@+id/setName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToMainActivity"
+        android:text="@string/let_s_start"/>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Android Quiz</string>
+    <string name="name">Name</string>
+    <string name="welcome_text">Welcome to Android Quiz!</string>
+    <string name="intro_text">This is a chance for you to practice and show what you have learned about Android development until now..
+        \nIt\'s just the tip of the iceberg of all the things you can do with Android but it is a good starting point!
+        \nIntroduce your name and… show what you know!</string>
+    <string name="user_name">Hello %1$s!</string>
+    <string name="default_user_name">Friend</string>
+    <string name="ready_to_show_text">Are you ready to show your knowledge of Android?\nLet\'s go!</string>
+    <string name="question_1_title">1. Images</string>
+    <string name="question_2_title">2. Languages</string>
+    <string name="question_3_title">3. Positioning</string>
+    <string name="question_4_title">4. Toasts</string>
+    <string name="question_5_title">5. Logo</string>
+    <string name="question_6_title">6. Intents</string>
+    <string name="question_1_body">What are you supposed to use if you want to place a picture in an Android app?</string>
+    <string name="question_1_answer_1">PhotoView</string>
+    <string name="question_1_answer_2">ImageView</string>
+    <string name="question_1_answer_3">PictureView</string>
+    <string name="question_2_body">What programming language is Android based on?\n(Tip: not the markup one)</string>
+    <string name="question_2_hint">Your answer here…</string>
+    <string name="question_3_body">Which of these attributes are correct for positioning and align views?\nMark each one of the valid options.</string>
+    <string name="question_3_answer_1">android:space</string>
+    <string name="question_3_answer_2">android:padding</string>
+    <string name="question_3_answer_3">android:align</string>
+    <string name="question_3_answer_4">android:layout_margin</string>
+    <string name="question_4_body">What are toasts in Android?</string>
+    <string name="question_4_answer_1">Crunchy images of a sandwich</string>
+    <string name="question_4_answer_2">Errors that make your device burn</string>
+    <string name="question_4_answer_3">Small popup used to provide feedback messages</string>
+    <string name="question_5_body">Which of these images is the logo of Android?</string>
+    <string name="question_6_body">In Android, what is an intent?</string>
+    <string name="question_6_answer_1">The name an app is given until it\'s completed</string>
+    <string name="question_6_answer_2">When you try to do something with your app and don\'t succeed</string>
+    <string name="question_6_answer_3">A messaging object you can use to request an action from another app component</string>
+    <string name="calculate_my_score">Calculate my score!</string>
+    <string name="zero_to_three_correct_answers">Uhm, you only scored %1$s points out of 6… Clear out your doubts and try again!</string>
+    <string name="four_or_five_correct_answers">Good job! You almost guessed all the right answers (%1$s of 6) but you still have to improve something… Check your errors and try again!</string>
+    <string name="all_correct_answers">Congratulations! All your answers are right! (%1$s of 6) You can be proud of it!!</string>
+    <string name="let_s_start">Let\'s start!</string>
+</resources>
