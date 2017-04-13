@@ -229,7 +229,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
                 android:onClick="question5RadioButtons" />
                 <ImageView
                     android:layout_width="wrap_content"
@@ -238,7 +237,7 @@
                     android:layout_weight="1"
                     android:paddingBottom="4dp"
                     android:paddingRight="8dp"
-                    android:scaleType="centerInside"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/robot" />
                 <View
                     android:layout_width="1dp"
@@ -249,15 +248,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
                 android:onClick="question5RadioButtons" />
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_weight="1"
                     android:paddingBottom="4dp"
                     android:paddingRight="8dp"
-                    android:scaleType="centerInside"
+                    android:scaleType="fitCenter"
                     android:src="@drawable/android_logo"/>
                 <View
                     android:layout_width="1dp"
@@ -276,7 +275,7 @@
                 android:layout_weight="1"
                     android:paddingBottom="4dp"
                     android:paddingRight="8dp"
-                android:scaleType="centerInside"
+                android:scaleType="fitCenter"
                 android:src="@drawable/smartphone"/>
             </RadioGroup>
            </RelativeLayout>
